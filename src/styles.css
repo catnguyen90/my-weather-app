@@ -52,6 +52,12 @@ button:hover {
   color: #20b2aa;
   background-color: white;
 }
+
+small {
+  font-family: "Annie Use Your Telescope", cursive;
+  font-size: 20px;
+  text-align: center;
+}
 .search {
   padding: 5% 0 0 0;
   font-family: "Annie Use Your Telescope", cursive;
