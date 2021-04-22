@@ -77,12 +77,14 @@ small {
   color: #db7093;
   padding: 0 0 10% 0;
 }
-
-.weather-app {
+.weather-app-wrapper {
+  margin: 30px auto;
   width: 75%;
+}
+.weather-app {
   opacity: 1;
   padding: 30px;
-  margin: 30px auto;
+
   border-radius: 30px;
   border-style: solid;
   background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
