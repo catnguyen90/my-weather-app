@@ -13,7 +13,9 @@ h2 {
 h3 {
   font-family: "Antic', sans-serif", cursive;
   color: #20b2aa;
-  font-size: 15px;
+  font-size: 25px;
+  position: relative;
+  left: 70px;
 }
 h4 {
   padding: 15px;
@@ -49,7 +51,9 @@ i {
 }
 
 .units {
-  font-size: 15px;
+  font-size: 16px;
+  position: relative;
+  top: -5px;
 }
 
 .col {
