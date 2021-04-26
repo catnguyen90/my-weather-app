@@ -1,18 +1,29 @@
 h1 {
-  font-family: "Annie Use Your Telescope", cursive;
-  font-size: 40px;
+  font-family: "Antic', sans-serif", cursive;
+  font-size: 25px;
   color: #db7093;
 }
 h2 {
-  text-align: center;
-  font-family: "Annie Use Your Telescope", cursive;
+  font-family: "Antic', sans-serif", cursive;
   color: #20b2aa;
-  font-size: 40px;
+  font-size: 25px;
 }
 
 h3 {
-  text-align: center;
-  font-family: "Annie Use Your Telescope", cursive;
+  font-family: "Antic', sans-serif", cursive;
+  color: #20b2aa;
+  font-size: 15px;
+}
+h4 {
+  padding: 15px;
+  font-family: "Antic', sans-serif", cursive;
+  font-size: 25px;
+  color: #20b2aa;
+}
+
+h6 {
+  font-family: "Antic', sans-serif", cursive;
+  font-size: 15px;
   color: #20b2aa;
 }
 
@@ -23,82 +34,9 @@ ul {
 
 li {
   color: #db7093;
-  font-family: "Annie Use Your Telescope", cursive;
+  font-family: "Antic', sans-serif", cursive;
   list-style: none;
-  font-size: 36px;
-}
-
-button {
-  display: inline-block;
-  font-weight: 400;
-  line-height: 1.5;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  vertical-align: middle;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
-  background-color: #20b2aa;
-  border: 1px solid black;
-  padding: 0.375rem 0.9rem;
-  font-size: 1rem;
-  border-radius: 0.25rem;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-}
-button:hover {
-  color: #20b2aa;
-  background-color: white;
-}
-
-small {
-  font-family: "Annie Use Your Telescope", cursive;
-  font-size: 20px;
-  text-align: center;
-}
-.search {
-  padding: 5% 0 0 0;
-  font-family: "Annie Use Your Telescope", cursive;
-  color: #db7093;
-}
-
-.forecast {
-  font-family: "Annie Use Your Telescope", cursive;
-  font-size: 40px;
-  color: #20b2aa;
-  margin: ;
-}
-
-.col {
-  font-family: "Annie Use Your Telescope", cursive;
-  font-size: 30px;
-  color: #db7093;
-  padding: 0 0 10% 0;
-}
-.weather-app-wrapper {
-  margin: 30px auto;
-  width: 75%;
-}
-.weather-app {
-  opacity: 1;
-  padding: 30px;
-
-  border-radius: 30px;
-  border-style: solid;
-  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
-}
-
-.row {
-  text-align: center;
-}
-
-.units {
-  font-size: 25px;
-  color: #20b2aa;
-  position: relative;
-  top: ;
+  font-size: 15px;
 }
 
 h2 i {
@@ -109,44 +47,18 @@ i {
   color: white;
 }
 
-.btnSearch {
-  display: inline-block;
-  font-weight: 400;
-  line-height: 1.5;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  vertical-align: middle;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
-  background-color: #20b2aa;
-  border: 1px solid black;
-  padding: 0.375rem 0.9rem;
-  font-size: 1rem;
-  border-radius: 0.25rem;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+.col {
+  font-family: "Antic', sans-serif", cursive;
+  font-size: 15px;
+  color: #db7093;
+  padding: 0 0 10% 0;
 }
 
-.btnSearch:hover {
-  color: #20b2aa;
-  background-color: white;
-}
-
-#city-search {
-  display: block;
-  width: 100%;
-  padding: 0.375rem 0.75rem;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #212529;
-  background-color: #fff;
-  background-clip: padding-box;
-  border: 1px solid #ced4da;
-  appearance: none;
-  border-radius: 0.25rem;
-  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+.weather-app {
+  opacity: 1;
+  padding: 30px;
+  margin: 40px auto;
+  border-radius: 30px;
+  border-style: solid;
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
 }

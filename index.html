@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script src="https://kit.fontawesome.com/41f21b9058.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/41f21b9058.js"
+      crossorigin="anonymous"
+    ></script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,93 +15,98 @@
       crossorigin="anonymous"
     />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
+
     <link
-      href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Antic&display=swap"
       rel="stylesheet"
     />
     <link href="src/styles.css" rel="stylesheet" type="text/css" />
-     
-<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
     <title>Weather App</title>
   </head>
   <body>
     <div class="container">
-      <div class="weather-app-wrapper">
       <div class="weather-app">
-      <form class="search">
-        <div>
-          <div>
-              <div class="input-group mb-3">
-                  <input type="text" class="form-control" placeholder="Enter a city, state" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                  <input type="submit" value="Search" class="btnSearch" id="basic-addon2" />
-              </div>    
+        <div class="row">
+          <div class="col-6">
+            <h1><strong>Greenville, SC</strong></h1>
+            <ul>
+              <li><span>Monday 8:19 PM</span></li>
+              <li>
+                Precipitation:
+                <strong>...</strong>
+                , Humidity:
+                <strong>...</strong>
+                , Wind:
+                <strong>...</strong>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6">
+            <h2>
+              <i class="fas fa-cloud-sun"></i>
+              <span class="descript" id="temp-description"
+                ><strong>Sunny</strong></span
+              >
+              <span class="temp" id="temperature"
+                ><strong>75°F |°C</strong></span
+              >
+            </h2>
+            <h3><strong>High: 75°F Low: 43°F</strong></h3>
           </div>
         </div>
-        <div>
-          <button type="button">Current Location</button>
+        <h4 class="forecast"><strong>FORECAST</strong></h4>
+        <div class="row">
+          <div class="col">
+            Now <br />
+            <i class="fas fa-sun"></i><br />
+            66°F
+          </div>
+          <div class="col">
+            9PM <br />
+            <i class="fas fa-sun"></i><br />
+            66°F
+          </div>
+          <div class="col">
+            10PM <br />
+            <i class="fas fa-cloud-sun"></i><br />
+            63°F
+          </div>
+          <div class="col">
+            11PM <br />
+            <i class="fas fa-cloud-sun"></i><br />
+            61°F
+          </div>
+          <div class="col">
+            12AM <br />
+            <i class="fas fa-cloud"></i><br />
+            55°F
+          </div>
+          <div class="col">
+            1AM <br />
+            <i class="fas fa-cloud"></i><br />
+            54°F
+          </div>
+          <div class="col">
+            2AM <br />
+            <i class="fas fa-cloud"></i><br />
+            54°F
+          </div>
         </div>
-      </form>
-      <h1 class=city id=city-input>
-        <strong
-          >Greenville, SC 
-        </strong>
-      </h1>
-      <ul>
-        <li id="date-time">Monday 8:19 PM
-        </li>
-      </ul>
-          
-     
-      <h2><i class="fas fa-cloud-sun"></i>  
-        <strong><span class="descript" id="temp-description">Sunny</span> <span class="temp" id="temperature">75</span
-        ></strong></h2>
-      <h3><strong>High: 75°F     Low: 43°F</strong></h3>
 
-      <h4 class="forecast">FORECAST</h3>
-      <div class="row">
-        <div class="col">
-          Now <br />
-          <i class="fas fa-sun"></i><br />
-          66°F
-        </div>
-        <div class="col">
-          9PM <br />
-          <i class="fas fa-sun"></i><br />
-          66°F
-        </div>
-        <div class="col">
-          10PM <br />
-          <i class="fas fa-cloud-sun"></i><br />
-          63°F
-        </div>
-        <div class="col">
-          11PM <br />
-          <i class="fas fa-cloud-sun"></i><br />
-          61°F
-        </div>
-        <div class="col">
-          12AM <br />
-          <i class="fas fa-cloud"></i><br />
-          55°F
-        </div>
-        <div class="col">
-          1AM <br />
-          <i class="fas fa-cloud"></i><br />
-          54°F
-        </div>
-        <div class="col">
-          2AM <br />
-          <i class="fas fa-cloud"></i><br />
-          54°F
-        </div>
+        <h6>
+          <a
+            href="https://github.com/catnguyen90/my-weather-app"
+            target="_blank"
+            >Open-source code</a
+          >
+          by Cathy Nguyen
+        </h6>
       </div>
     </div>
-    
-    <small>
-    <a href="https://github.com/catnguyen90/my-weather-app" target="_blank">Open-source code</a> by Cathy Nguyen </small>  
-   </div>
-  </div>
+
     <script src="src/index.js"></script>
-      </body>
+  </body>
 </html>
