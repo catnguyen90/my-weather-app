@@ -14,6 +14,9 @@ h3 {
   font-family: "Antic', sans-serif", cursive;
   color: #20b2aa;
   font-size: 25px;
+  position: relative;
+  left: -50px;
+  top: -10px;
 }
 h4 {
   padding: 15px;
@@ -64,4 +67,8 @@ i {
   border-radius: 30px;
   border-style: solid;
   background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+}
+
+.temp {
+  margin-left: -20px;
 }
