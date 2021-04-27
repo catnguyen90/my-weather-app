@@ -67,10 +67,12 @@ i {
   border-radius: 30px;
   border-style: solid;
   background-image: url(../img/weather-app-backgroun.jpg);
+
+  background-size: cover;
 }
 
 .temp {
-  margin-left: -20px;
+  margin-left: -5px;
 }
 
 .btn {
@@ -83,4 +85,23 @@ i {
 .btn:hover {
   color: #20b2aa;
   background-color: white;
+}
+
+.active {
+  color: #20b2aa;
+  cursor: default;
+  text-decoration: none;
+}
+
+.active:hover {
+  text-decoration: none;
+  cursor: default;
+}
+
+#celsius-link {
+  text-decoration: none;
+}
+
+#celsius-link:hover {
+  text-decoration: none;
 }
