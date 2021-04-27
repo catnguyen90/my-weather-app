@@ -72,3 +72,15 @@ i {
 .temp {
   margin-left: -20px;
 }
+
+.btn {
+  background-color: #20b2aa;
+  border: 1px solid black;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn:hover {
+  color: #20b2aa;
+  background-color: white;
+}
