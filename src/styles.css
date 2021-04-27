@@ -66,7 +66,7 @@ i {
   margin: 40px auto;
   border-radius: 30px;
   border-style: solid;
-  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+  background-image: url(../img/weather-app-backgroun.jpg);
 }
 
 .temp {
