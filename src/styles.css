@@ -53,6 +53,10 @@ i {
   top: -5px;
 }
 
+.units a {
+  text-decoration: none;
+}
+
 .col {
   font-family: "Alegreya Sans", sans-serif;
   font-size: 15px;
