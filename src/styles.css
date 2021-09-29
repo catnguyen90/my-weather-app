@@ -1,3 +1,8 @@
+body {
+  background: url(../img/weather-app-backgroun.jpg);
+  background-size: cover;
+}
+
 h1 {
   font-family: "Alegreya Sans", sans-serif;
   font-size: 25px;
@@ -47,6 +52,14 @@ i {
   color: white;
 }
 
+form {
+  margin-top: 50px;
+}
+
+input {
+  margin-top: 50px;
+}
+
 .units {
   font-size: 16px;
   position: relative;
@@ -78,17 +91,6 @@ i {
   opacity: 0.8;
 }
 
-.weather-app {
-  opacity: 1;
-  padding: 30px;
-  margin: 40px auto;
-  border-radius: 30px;
-  border-style: solid;
-  background-image: url(../img/weather-app-backgroun.jpg);
-
-  background-size: cover;
-}
-
 .temp {
   margin-left: -5px;
 }
@@ -114,6 +116,26 @@ i {
 .active:hover {
   text-decoration: none;
   cursor: default;
+}
+
+.cloud {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../img/cloud.png);
+  background-size: cover;
+  animation: animate 60s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0px;
+  }
+  100% {
+    background-position: 5440px;
+  }
 }
 
 #celsius-link {
